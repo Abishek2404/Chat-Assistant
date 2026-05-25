@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Password Reset",
+    "source": "Account Help Center",
+    "content": "Users can reset their password from Settings > Security > Password. After selecting Reset Password, the system sends a verification code to the user's registered email address. The code expires after 10 minutes. If the user does not receive the email, they should check spam or request a new code after 60 seconds."
+  },
+  {
+    "title": "Account Deletion",
+    "source": "Account Help Center",
+    "content": "Users can delete their account from Account Settings > Privacy > Delete Account. Account deletion is permanent after a 14-day grace period. During the grace period, signing back in cancels the deletion request. After deletion, profile data and saved preferences cannot be restored."
+  },
+  {
+    "title": "Billing and Invoices",
+    "source": "Billing Guide",
+    "content": "Billing information is available from Settings > Billing. Users can download invoices as PDF files, update payment methods, and view upcoming renewal dates. Failed payments are retried automatically for seven days before the subscription is paused."
+  },
+  {
+    "title": "Team Member Invitations",
+    "source": "Workspace Admin Guide",
+    "content": "Workspace admins can invite team members from Workspace Settings > Members. Invitations are sent by email and expire after 72 hours. Admins can resend or revoke pending invitations. New members receive the default Member role unless an admin chooses a different role during invitation."
+  },
+  {
+    "title": "Data Export",
+    "source": "Privacy Guide",
+    "content": "Users can export their data from Settings > Privacy > Export Data. Exports include profile details, account activity, and uploaded documents. Export preparation may take up to 24 hours. When the export is ready, the user receives a secure download link by email."
+  },
+  {
+    "title": "Support Response Times",
+    "source": "Support Policy",
+    "content": "Standard support requests receive a first response within two business days. Priority support requests receive a first response within four business hours. Support hours are Monday through Friday, 9 AM to 6 PM local support-region time, excluding public holidays."
+  },
+  {
+    "title": "Two-Factor Authentication",
+    "source": "Security Guide",
+    "content": "Two-factor authentication can be enabled from Settings > Security > Two-Factor Authentication. Users may choose an authenticator app or email codes. Backup codes are shown once during setup and should be stored safely. Admins can require two-factor authentication for all workspace members."
+  }
+]
