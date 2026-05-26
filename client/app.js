@@ -1,4 +1,4 @@
-const API_BASE_URL = "chat-assistant-orpin.vercel.app";
+const API_BASE_URL = "https://chat-assistant-orpin.vercel.app";
 const messagesEl = document.querySelector("#messages");
 const formEl = document.querySelector("#chat-form");
 const inputEl = document.querySelector("#message-input");
