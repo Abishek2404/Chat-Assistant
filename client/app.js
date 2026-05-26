@@ -61,7 +61,15 @@ formEl.addEventListener("submit", async (event) => {
       }),
     });
 
-    const data = await response.json();
+    const text = await response.text();
+
+let data;
+
+try {
+  data = JSON.parse(text);
+} catch {
+  throw new Error(`Invalid JSON response: ${text}`);
+}
     if (!response.ok) {
       throw new Error(data.detail || data.error || "Request failed");
     }
